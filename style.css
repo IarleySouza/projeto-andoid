@@ -167,3 +167,12 @@ footer > p{
     color: white;
     margin: 0px;
 }
+footer > p > a{
+    text-decoration: none;
+    color: white;
+    background-color: #3ad07e67;
+    border-radius: 5px;
+}
+footer > p > a:hover {
+    background-color: #94c2a9d0;
+}
