@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idoid';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0: #ebe5c5;
+    --cor1: #83e1ad;
+    --cor2: #154d2e;
+}
+h1 {
+    font-size: 1.7em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.377);
+    font-weight: bold;
+}
+header {
+    background-image: linear-gradient(to top, #123f26, #3AD07E);
+    margin: auto;
+    text-align: center;
+    min-height: 150px;
+}
+header > p {
+    text-align: center;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    background-color: #84E1AD;
+
+}
+main {
+    margin: auto;
+    padding: 20px;
+    min-height: 320px;
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 5px 17px 0px rgba(0, 0, 0, 0.39);
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #123f26;
+    background-color: #3ad07e67;
+    padding: 2px 6px;
+    border-radius: 5px;
+
+}
+
+main a:hover {
+    background-color: #3AD07E;
+    text-decoration: underline;
+}
+.video {
+    background-color: #123f26;
+    margin-bottom: 30PX;
+    margin: 0px -20px 30px -20px;
+    padding: 10px;
+    padding-bottom: 57.5%;
+    position: relative;
+}
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+p {
+    text-align: justify;
+    margin: 15px 0px;
+    text-indent: 25px;
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+article > h2 {
+    font-family: 'idoid';
+    color: #21603E;
+}
+h3 {
+    font-family: 'idoid';
+    padding: 1px;
+    color: #21603E;
+    background-image: linear-gradient(to right, #8dfcbf83 , white);
+}
+h4 {
+    font-size: 1.5em;
+    background-color: #21603E;
+    color: white;
+    margin: -10px -10px 0px -10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+
+}
+nav {
+    background-color: #123f26;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.288);
+}
+nav > a {
+    text-decoration: none;
+    padding: 10px;
+    margin: auto;
+    color: rgba(45, 223, 140, 0.664);
+}
+nav > a:hover {
+    color: black;
+    background-color: #52916ec7;
+    color: var(--cor2);
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+img {
+    width: 100%;
+}
+.pequena {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+.externo::after {
+    content: '\00A0\1F517';
+}
+aside {
+    background-color: #3ad07e91;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+}
+aside > p {
+    padding: 2px 10px;
+}
+ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer {
+    background-color: var(--cor2);
+}
+footer > p{
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
